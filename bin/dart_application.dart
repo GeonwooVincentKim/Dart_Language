@@ -1,9 +1,5 @@
-// import 'package:dart_application/dart_application.dart' as dart_application;
+import 'package:dart_application/dart_application.dart' as dart_application;
 
-// void main(List<String> arguments) {
-//   print('Hello world: ${dart_application.calculate()}!');
-// }
-
-main(List<String> arguments) {
-  print('Hello World');
+void main(List<String> arguments) {
+  print('Hello world: ${dart_application.calculate()}!');
 }
