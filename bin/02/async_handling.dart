@@ -4,7 +4,7 @@ void main() {
 }
 
 Future checkVersion() async {
-  var version = lookUpVersion();
+  var version = await lookUpVersion();
   print(version);
 }
 
